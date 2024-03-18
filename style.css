@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0%;
+    background-color: white;
+    font-size: 20px;
+    background-color: rgb(255, 230, 0);
+}
+
+header {
+    background-color: orange;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.jersey-number {
+    margin-left: 45%;
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    padding: 10px;
+    position: fixed;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.best-jersey {
+    margin-top: 15px;
+    height: 900px;
+    background-color: white;
+}
+
+.switch-container {
+    height: 900px;
+}
+
+.images {
+    height: 900px;
+    border: 0.5px solid grey;
+    box-sizing: border-box;
+}
+
+.team-jerseys {
+    width: 900px;
+}
+
+.arrow-right {
+    padding: 10px 0px;
+    text-align: center;
+    display: inline-block;
+    width:450px;
+    height: 20px;
+    border: 0.5px solid gray;
+    position: absolute;
+    margin-left: 450px;
+    background-color: white;
+}
+
+.arrow-right:hover {
+    background-color: orange;
+    color: white;
+}
+
+.arrow-left {
+    background-color: white;
+    padding: 10px 0px;
+    text-align: center;
+    display: inline-block;
+    width: 450px;
+    height: 20px;
+    border: 0.5px solid gray;
+    position: absolute;
+}
+
+.arrow-left:hover {
+    background-color: orange;
+    color: white;
+}
+
+.btn {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: red;
+    border-radius: 0;
+    border: 0;
+    width: 900px;
+    margin-top: 41px;
+    height:55px;
+    position: absolute;
+}
+
+.btn:hover {
+    background-color: orange;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+footer > .list > ul li > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > .list > ul li > a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+footer .list {
+    display: inline-block;
+}
+
+footer > #list-1 {
+    margin-top: 0px;
+    position: absolute;
+}
+
+footer > #list-2 {
+    margin-left: 450px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 700px;
+        margin: auto;
+        height: 500px;
+    }
+
+    .images {
+        height: 700px;
+        border: 0.5px solid grey;
+        box-sizing: border-box;
+    }
+
+    .team-jerseys {
+        width: 700px;
+        height: 700px;
+    }
+
+    .switch-container {
+        height: 700px;
+    }
+
+    .best-jersey {
+        margin-top: 15px;
+        height: 700px;
+        width: 700px;
+        background-color: white;
+    }
+
+    .best-jersey-show {
+        height: 700px;
+        width: 700px;
+    }
+
+    .arrow-right {
+        padding: 10px 0px;
+        text-align: center;
+        display: inline-block;
+        width:350px;
+        height: 20px;
+        border: 0.5px solid gray;
+        margin-left: 350px;
+        background-color: white;
+    }
+
+    .arrow-left {
+        background-color: white;
+        padding: 10px 0px;
+        text-align: center;
+        display: inline-block;
+        width: 350px;
+        height: 20px;
+        border: 0.5px solid gray;
+    }
+
+    .btn {
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: red;
+        border-radius: 0;
+        border: 0;
+        width: 700px;
+        height:55px;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin-top: 700px;
+        width: 700px;
+    }
+
+    footer > #list-2 {
+        margin-left: 350px;
+        position: static;
+    }
+}
