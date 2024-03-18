@@ -128,48 +128,48 @@ footer > #list-2 {
     margin-left: 450px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .container {
-        width: 700px;
+        width: 400px;
         margin: auto;
         height: 500px;
     }
 
     .images {
-        height: 700px;
+        height: 400px;
         border: 0.5px solid grey;
         box-sizing: border-box;
     }
 
     .team-jerseys {
-        width: 700px;
-        height: 700px;
+        width: 400px;
+        height: 400px;
     }
 
     .switch-container {
-        height: 700px;
+        height: 400px;
     }
 
     .best-jersey {
         margin-top: 15px;
-        height: 700px;
-        width: 700px;
+        height: 400px;
+        width: 400px;
         background-color: white;
     }
 
     .best-jersey-show {
-        height: 700px;
-        width: 700px;
+        height: 400px;
+        width: 400px;
     }
 
     .arrow-right {
         padding: 10px 0px;
         text-align: center;
         display: inline-block;
-        width:350px;
+        width: 200px;
         height: 20px;
         border: 0.5px solid gray;
-        margin-left: 350px;
+        margin-left: 200px;
         background-color: white;
     }
 
@@ -178,7 +178,7 @@ footer > #list-2 {
         padding: 10px 0px;
         text-align: center;
         display: inline-block;
-        width: 350px;
+        width: 200px;
         height: 20px;
         border: 0.5px solid gray;
     }
@@ -190,7 +190,7 @@ footer > #list-2 {
         background-color: red;
         border-radius: 0;
         border: 0;
-        width: 700px;
+        width: 400px;
         height:55px;
     }
 
@@ -199,11 +199,11 @@ footer > #list-2 {
         color: white;
         padding: 10px;
         margin-top: 700px;
-        width: 700px;
+        width: 400px;
     }
 
     footer > #list-2 {
-        margin-left: 350px;
+        margin-left: 200px;
         position: static;
     }
 }
