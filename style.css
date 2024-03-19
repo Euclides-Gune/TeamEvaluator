@@ -49,6 +49,14 @@ header {
     width: 900px;
 }
 
+.remove {
+    position: absolute;
+    color: red;
+    margin-top: 85px;
+    margin-left: 870px;
+    cursor: pointer;
+}
+
 .arrow-right {
     padding: 10px 0px;
     text-align: center;
@@ -186,7 +194,7 @@ footer > #list-2 {
 
     .best-jersey {
         margin-top: 30px;
-        height: 400px;
+        height: 500px;
         width: 400px;
         background-color: white;
     }
@@ -194,13 +202,22 @@ footer > #list-2 {
     .best-jersey-show {
         margin-top: 50px;
         width: 400px;
-        height: 300px;
+        height: 400px;
+    }
+
+    .remove {
+        position: absolute;
+        color: red;
+        margin-top: 70px;
+        margin-left: 370px;
+        cursor: pointer;
     }
 
     footer {
         background-color: black;
         color: white;
         padding: 30px;
+        margin-top: 100px;
     }
     
     footer .list {

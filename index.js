@@ -100,7 +100,7 @@ evaluate.addEventListener("click", () => {
             alert("camisa escolhida: Paris Saint-Germain");
             break;
         case 12:
-            alert("amisa escolhida: real Madrid");
+            alert("Camisa escolhida: real Madrid");
             break;
         default:
             alert("Opção inválida!");
@@ -114,5 +114,10 @@ evaluate.addEventListener("click", () => {
 
     let footer = document.querySelector('footer');
 
-    footer.style.marginTop = "0px";
+    let removeButton = document.querySelector('.remove');
+
+    removeButton.addEventListener("click", () => {
+        showBestJersey.remove();
+    })
+
 })
